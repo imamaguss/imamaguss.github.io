@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Form Page</title>
+  </head>
+  <body>
+    <h1>Buat Account Baru</h1>
+    <h3>Sign-Up Form</h3>
+    <p>
+      <label for="firstname">First Name:</label><br/>
+      <input id="firstname" type="text" placeholder="Insert your first name"/>
+    </p>
+    <p>
+      <label for="lastname">Last Name:</label><br/>
+      <input id="lastname" type="text" placeholder="Insert your last name"/>
+    </p>
+    <p>
+      <label>Gender:</label><br/>
+      <input type="radio" name="gender" id="male" value="Male" style="width: auto"/>
+      <label class="malelbl" id="malelbl" for="male" style="display: inline;">Male</label><br>
+      <input type="radio" name="gender" id="female" value="Female" style="width: auto"/>
+      <label class="femalelbl" id="femalelbl" for="female" style="display: inline;">Female</label><br>
+      <input type="radio" name="gender" id="othergndr" value="Other" style="width: auto"/>
+      <label class="otherlbl" id="otherlbl" for="othergndr" style="display: inline;">Other</label><br>
+    </p>
+    <p>
+      <label>Nationality:</label><br/>
+      <select name="nationality">
+        <option disabled>--- Choose your Nationality ---</option>
+        <option>Indonesia</option>
+        <option>Malaysia</option>
+        <option>Singapore</option>
+        <option></option>
+      </select>
+    </p>
+    <p>
+      <label>Language Spoken:</label><br/>
+      <input type="checkbox" name="indonesia" id="indonesia" value="Bahasa Indonesia" style="width: auto"/>
+      <label class="indonesia-label" id="indonesia-label" for="indonesia" style="display: inline;">Bahasa Indonesia</label><br/>
+
+      <input type="checkbox" name="malaysia" id="malaysia" value="Malaysia" style="width: auto"/>
+      <label class="malaysia-label" id="malaysia-label" for="malaysia" style="display: inline;">Malaysia</label><br/>
+
+      <input type="checkbox" name="other" id="other" value="Other" style="width: auto"/>
+      <label class="other-label" id="other-label" for="other" style="display: inline;">Other</label><br/>
+    </p>
+    <p>
+      <label>Bio:</label><br/>
+      <textarea name="bio" rows="8"></textarea><br/>
+    </p>
+    <p>
+      <button type="submit" value="Sign Up" onclick="window.location = 'welcome.html';">Sign Up</button>
+
+    </p>
+
+  </body>
+</html>
