@@ -1,0 +1,85 @@
+/* Style Default*/
+/* tag selector */
+body{
+  font-family: 'Slabo 27px', serif;
+}
+h1{
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding-bottom: 10px;
+}
+.separator{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Style Untuk Soal 1, 2, dan 3. Gunakan dengan sesuai!!*/
+/* jenis box */
+.box-100{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  font-size: 15pt;
+  text-align: center;
+}
+
+.box-200{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  font-size: 15pt;
+  text-align: center;
+}
+
+/* background */
+.red-background{
+  color: #FFFFFF;
+  background: #c0392b
+}
+.blue-background{
+  color: #FFFFFF;
+  background: #446CB3;
+}
+
+.green-background{
+  color: #FFFFFF;
+  background: #26A65B
+}
+
+/* warna box */
+#maroon-box{
+  color: #FFFFFF;
+  background: #96218B;
+}
+
+#dark-blue{
+  color: #ffffff;
+  background: #4B77BE;
+}
+
+#salem-box{
+  color: #FFFFFF;
+  background: #1e824c
+}
+
+.box-list div{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  font-size: 15pt;
+  text-align: center;
+  background: #353535;
+  color: #ffffff;
+}
+
+#gold-box{
+  border-radius: 20px;
+  color: #353535;
+  background: #f9bf3b;
+}
