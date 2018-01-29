@@ -1,27 +1,39 @@
-ul.topnav{
-  list-style-type: none;
+*{
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: green;
-}
-ul.topnav li a{
-  display: inline-block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px
-  text-decoration:none;
-  transition: 0.5s;
-  font-size: 16px;
 }
 
-ul.topnav li a:hover{
-  background-color: #111;
+nav{
+  margin: auto;
+  text-align: left;
+  width: 100%;
+  font-family: Helvetica;
 }
-ul.topnav li.icon{
-  display: none;
-}
-@@media screen and(max-width:680px) {
-  ul.topnav li:not(:first-child){display: no}
 
+nav ul{
+  background: #707070;
+  padding: 0 20px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+}
+
+nav ul li{
+  float: right;
+}
+
+nav ul li:hover{
+  background: #E24B4B;
+}
+
+nav ul li:hover a{
+  color: #000;
+}
+
+nav ul li a{
+  display: block;
+  padding: 25px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
