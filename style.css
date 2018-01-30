@@ -44,14 +44,14 @@ ul li{
 body{
 	left: 5px;
 	top: 50px;
-  background-image: url(images/underc.jpg);
+  background-image: url(images/underc.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 
 }
 
 .container img{
-  
+
 }
 
 #footer{
